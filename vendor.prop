@@ -165,10 +165,7 @@ debug.sf.enable_gl_backpressure=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
 debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
-debug.sf.latch_unsignaled=1
 persist.sys.sf.color_saturation=1.0
-ro.hardware.egl=adreno
-ro.hardware.vulkan=adreno
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
@@ -179,7 +176,6 @@ ro.surface_flinger.set_touch_timer_ms=4000
 ro.surface_flinger.use_color_management=true
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
-vendor.opengles.version=196610
 
 # Incremental FS
 ro.incremental.enable=yes
@@ -190,20 +186,11 @@ debug.stagefright.c2inputsurface=-1
 # Netflix
 ro.netflix.bsp_rev=Q8250-19134-1
 
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-
 # Qualcomm System Daemon
 persist.vendor.qcomsysd.enabled=1
 
 # Radio
-persist.vendor.radio.apm_sim_not_pwdn=1
-persist.vendor.radio.custom_ecc=1
-persist.vendor.radio.enableadvancedscan=true
-persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.rat_on=combine
-persist.vendor.radio.sib16_support=1
-ro.telephony.default_network=33,33
 
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
