@@ -165,10 +165,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Platform
 TARGET_BOARD_PLATFORM := kona
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
-
 # QC Common
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
@@ -181,6 +177,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     gps \
     init \
     media \
+    overlay \
     perf \
     telephony \
     usb \
