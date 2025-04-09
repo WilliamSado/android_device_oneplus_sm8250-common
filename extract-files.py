@@ -29,12 +29,14 @@ from extract_utils.utils import (
 namespace_imports = [
     'device/oneplus/sm8250-common',
     'hardware/oplus',
-    'hardware/qcom-caf/sm8250',
-    'hardware/qcom-caf/wlan',
-    'vendor/qcom/opensource/commonsys-intf/display',
-    'vendor/qcom/opensource/commonsys/display',
-    'vendor/qcom/opensource/dataservices',
-    'vendor/qcom/opensource/display',
+    'hardware/qcom/display',
+    'hardware/qcom/display/gralloc',
+    'hardware/qcom/display/libdebug',
+    'vendor/qcom/common/vendor/adreno-r',
+    'vendor/qcom/common/vendor/display/4.19',
+    'vendor/qcom/common/vendor/gps-legacy',
+    'vendor/qcom/common/vendor/media-legacy',
+    'vendor/qcom/common/vendor/wlan-legacy',
 ]
 
 
